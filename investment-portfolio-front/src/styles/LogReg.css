@@ -21,7 +21,6 @@ input[type="text"],
 input[type="number"],
 .password-container {
     width: 100%;
-    /* Ustaw szerokość dla wszystkich inputów */
     display: flex;
     align-items: center;
 }
@@ -31,15 +30,9 @@ input[type="number"],
     margin-right: 10px;
     width: 60%;
     padding-right: 2em;
-    /* Dodaj miejsce na przycisk oka */
 }
 
 .show-password-button {
-    /* margin-left: -2em; */
-    /* background: none; */
-    /* border: none; */
     cursor: pointer;
     padding: 5px 10px;
-    /* position: absolute; */
-    /* right: 10px; */
 }
