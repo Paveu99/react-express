@@ -65,7 +65,7 @@ export const LoginView = () => {
         <h1>Log in Form</h1>
         <form autoComplete='off' className="form-logreg" onSubmit={checkInput}>
             {submitted && errorMessage && (
-                <p className="checkAnswer" style={{ backgroundColor: 'red' }}>
+                <p className="checkAnswer" style={{ backgroundColor: 'red', borderRadius: "10px", padding: "10px" }}>
                     {errorMessage}
                 </p>
             )}

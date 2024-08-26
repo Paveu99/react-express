@@ -21,7 +21,7 @@ export const useApi = () => {
                 return data;
             } else {
                 const apiError = await res.json();
-                throw new Error(apiError.error);
+                throw new Error(apiError.message);
             }
         } catch (e) {
             if (e instanceof Error) {
